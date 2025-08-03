@@ -1,0 +1,13 @@
+{
+  "name": "flashcards-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:styles": "pnpx @tailwindcss/cli -i ./src/assets/input.css -o ./src/assets/output.css --watch"
+  },
+  "keywords": ["FlashCards", "Cards", "Flash"],
+  "author": "@Mr.m",
+  "license": "MIT",
+  "packageManager": "pnpm@10.12.1"
+}

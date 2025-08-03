@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+<title>FlashCards App</title>
+  <link rel="stylesheet" href="/src/styles/output.css">
+  <link rel="shortcut icon" type="image/png" href="/public/favicon.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Una app de tarjetas de estudio simple e intuitiva para memorizar conceptos fácilmente." />
+  <meta name="author" content="@Mr.m" />
+
+  <meta property="og:title" content="FlashCards App" />
+  <meta property="og:description" content="Estudia y memoriza con facilidad usando esta app de tarjetas educativas totalmente personalizable." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://misterreme.github.io/FlashCardsApp/" />
+  <meta property="og:image" content="/public/OgImage.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="https://misterreme.github.io/FlashCardsApp/" />
+  <meta name="twitter:creator" content="@Mr.m" />
+  <meta name="twitter:title" content="Organiza y estudia con FlashCards App" />
+  <meta name="twitter:description" content="Crea, organiza y estudia tarjetas fácilmente desde tu navegador." />
+  <meta name="twitter:image" content="/public/TwitterImage.png" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="./src/assets/output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navbar -->
+    <header class="fixed top-0 w-full bg-gray-800 bg-opacity-80 backdrop-blur z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+            <h1 class="text-xl font-bold">FlashCards App</h1>
+            <nav class="space-x-4 hidden md:block">
+                <a href="#que-es" class="hover:text-blue-400">¿Qué es?</a>
+                <a href="#caracteristicas" class="hover:text-blue-400">Características</a>
+                <a href="#capturas" class="hover:text-blue-400">Capturas</a>
+                <a href="#descargar" class="hover:text-blue-400">Descargar</a>
+                <a href="#faq" class="hover:text-blue-400">FAQ</a>
+                <a href="#contacto" class="hover:text-blue-400">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="pt-24 scroll-smooth">
+
+    <!-- Hero -->
+    <section class="text-center py-20 bg-gradient-to-b from-gray-800 to-gray-900">
+        <h2 class="text-4xl md:text-6xl font-bold mb-6">¡Aprende con tarjetas inteligentes!</h2>
+        <p class="text-lg md:text-xl mb-8 max-w-xl mx-auto">La app de flashcards para PC que organiza tu estudio sin conexión y sin anuncios.</p>
+        <a href="#descargar" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-4 px-8 rounded-full text-lg">Descargar ahora</a>
+    </section>
+
+    <!-- Qué es -->
+    <section id="que-es" class="max-w-4xl mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold mb-4">¿Qué es MiAppElectron?</h3>
+        <p class="text-gray-300">MiAppElectron es una aplicación de escritorio para Windows y Linux que te permite crear, organizar y repasar tarjetas de estudio (flashcards) de forma simple, rápida y sin necesidad de conexión a Internet.</p>
+    </section>
+
+    <!-- Características -->
+    <section class="py-16 px-4 bg-gray-800" id="caracteristicas">
+        <h3 class="text-3xl font-bold mb-8 text-center">Características principales</h3>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-gray-700 p-6 rounded-lg text-center">
+                <h4 class="font-semibold text-xl mb-2">Sin conexión</h4>
+                <p class="text-gray-300">Funciona 100% offline sin necesidad de registrarte.</p>
+            </div>
+            <div class="bg-gray-700 p-6 rounded-lg text-center">
+                <h4 class="font-semibold text-xl mb-2">Organización por conjuntos</h4>
+                <p class="text-gray-300">Agrupa tus tarjetas en diferentes temas o categorías.</p>
+            </div>
+            <div class="bg-gray-700 p-6 rounded-lg text-center">
+                <h4 class="font-semibold text-xl mb-2">Gratis y sin anuncios</h4>
+                <p class="text-gray-300">No hay publicidad ni costes ocultos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capturas -->
+    <section id="capturas" class="max-w-6xl mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold mb-8 text-center">Capturas de pantalla</h3>
+        <div class="w-full flex items-center justify-between gap-5">
+            <div class="flex flex-col gap-5">
+                <img src="/public/images/Cap1.png" alt="Captura 1" class="rounded-lg shadow-lg">
+                <img src="/public/images/Cap4.png" alt="Captura 2" class="rounded-lg shadow-lg">
+            </div>
+            <div class="flex flex-col gap-5">
+                <img src="/public/images/Cap2.png" alt="Captura 1" class="rounded-lg shadow-lg">
+                <img src="/public/images/Cap3.png" alt="Captura 2" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Descargar -->
+    <section id="descargar" class="bg-gray-800 py-16 px-4 text-center">
+        <h3 class="text-3xl font-bold mb-8">Descargar la app</h3>
+        <p class="mb-6 text-gray-300">Elige tu sistema operativo:</p>
+        <div class="space-x-4">
+            <a href="https://github.com/Misterreme/FlashCardsElectron/releases/download/App/FlashCards-Installer.exe" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full" download>Windows (.exe)</a>
+        </div>
+        <p class="mt-6 text-sm text-gray-400 max-w-lg mx-auto">⚠️ La app no está firmada digitalmente. Es posible que Windows muestre advertencias al instalarla. Haz clic en "Más información" y luego "Ejecutar de todas formas".</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 px-4 max-w-4xl mx-auto" id="faq">
+        <h3 class="text-3xl font-bold mb-8">Preguntas frecuentes</h3>
+        <div class="space-y-4">
+            <details class="bg-gray-800 p-4 rounded">
+                <summary class="cursor-pointer font-semibold">¿Por qué Windows muestra una advertencia?</summary>
+                <p class="mt-2 text-gray-300">
+                La app no tiene un certificado digital porque estos son de pago. Es seguro descargarla desde este sitio oficial.
+                </p>
+            </details>
+            <details class="bg-gray-800 p-4 rounded">
+                <summary class="cursor-pointer font-semibold">¿La aplicación es gratuita?</summary>
+                <p class="mt-2 text-gray-300">
+                Sí, es completamente gratis y no contiene anuncios.
+                </p>
+            </details>
+            <details class="bg-gray-800 p-4 rounded">
+                <summary class="cursor-pointer font-semibold">¿Dónde se guardan mis datos?</summary>
+                <p class="mt-2 text-gray-300">
+                Todo se guarda localmente en tu computadora. No se envían datos a ningún servidor.
+                </p>
+            </details>
+        </div>
+    </section>
+
+    </main>
+
+<!-- Footer -->
+    <footer class="text-center py-8 text-gray-400 text-sm">
+        <div class="flex justify-center space-x-6 mb-4">
+        <!-- Twitter -->
+        <a href="https://twitter.com/@Misterr_eme" target="_blank" class="bg-gray-700 hover:bg-indigo-500 transition p-3 rounded-full">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.26 4.26 0 001.88-2.35 8.46 8.46 0 01-2.7 1.03A4.23 4.23 0 0015.5 4c-2.34 0-4.23 1.9-4.23 4.23 0 .33.04.65.1.96A12.01 12.01 0 013 5.1a4.25 4.25 0 001.31 5.65 4.18 4.18 0 01-1.92-.53v.05c0 2.06 1.47 3.77 3.42 4.16a4.28 4.28 0 01-1.91.07 4.24 4.24 0 003.95 2.93A8.5 8.5 0 012 19.54a12 12 0 006.29 1.84c7.55 0 11.69-6.26 11.69-11.69 0-.18 0-.36-.01-.53A8.4 8.4 0 0022.46 6z"/>
+        </svg>
+        </a>
+
+        <!-- GitHub -->
+        <a href="https://github.com/Misterreme/FlashCardsElectron" target="_blank" class="bg-gray-700 hover:bg-white hover:text-black transition p-3 rounded-full">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.85 10.92.57.1.78-.25.78-.55v-2.05c-3.2.7-3.88-1.54-3.88-1.54-.52-1.32-1.28-1.67-1.28-1.67-1.05-.72.08-.7.08-.7 1.17.08 1.79 1.21 1.79 1.21 1.03 1.77 2.7 1.26 3.36.97.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.3 1.2-3.11-.12-.29-.52-1.46.12-3.04 0 0 .98-.31 3.2 1.18a11.07 11.07 0 015.82 0C17.8 6.5 18.78 6.8 18.78 6.8c.64 1.58.24 2.75.12 3.04.75.81 1.2 1.85 1.2 3.11 0 4.43-2.7 5.4-5.27 5.68.42.37.8 1.1.8 2.22v3.29c0 .31.2.66.79.55A10.99 10.99 0 0023.5 12C23.5 5.73 18.27.5 12 .5z"/>
+        </svg>
+        </a>
+        </div>
+
+        © 2025 FlashCardsApp - Todos los derechos reservados.
+    </footer>
+</body>
+</html>

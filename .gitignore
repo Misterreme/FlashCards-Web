@@ -1,0 +1,119 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Executables
+*.exe
+*.msi
+
+# Out directory
+/out/
+dist/
+build/
+release/
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and test
+coverage/
+*.lcov
+.nyc_output
+__tests__/coverage/
+
+# Cache
+.cache/
+.parcel-cache
+.vite/
+.vitepress/
+.svelte-kit/
+.nuxt/
+.next/
+.temp/
+node_modules/
+jspm_packages/
+bower_components/
+web_modules/
+.docusaurus/
+
+# Electron build outputs
+*.dmg
+*.app
+*.deb
+*.rpm
+*.snap
+*.AppImage
+*.asar
+*.appx
+*.msix
+*.blockmap
+*.zip
+*.tar.gz
+*.7z
+
+# Electron Forge auto-generated folders
+/tmp/
+/unpacked/
+**/electron-out/
+
+# Compiled binary addons
+build/Release
+.lock-wscript
+
+# Dependency lock/caches
+.pnp.*
+.npm/
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn-integrity
+
+# TypeScript
+*.tsbuildinfo
+
+# Lint/format/cache
+.eslintcache
+.stylelintcache
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# REPL
+.node_repl_history
+
+# npm pack
+*.tgz
+
+# VS Code
+.vscode-test/
+.vscode/ipch/
+.vscode/*.code-workspace
+
+# OS/system junk
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Others
+*.orig
+*.bak
+*.swp
+*.swo
+*.swn
